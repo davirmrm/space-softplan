@@ -1,0 +1,178 @@
+.box-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#box-app {
+  display: flex;
+  width: 100%;
+}
+
+#box-header {
+  background-color: var(--background-header);
+  color: var(--color-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30px;
+}
+#box-header > div {
+  padding: 0 15px;
+}
+#box-header button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  color: currentColor;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 8px 15px;
+  transition: all 0.15s;
+}
+#box-header button svg {
+  display: flex;
+}
+#box-header button:hover,
+#box-header button.open {
+  background-color: var(--background-header-h);
+}
+
+#box-footer {
+  background-color: var(--background-footer);
+  color: var(--color-footer);
+  padding: 10px 15px;
+}
+
+#box-sidebar-left {
+  background-color: var(--background-sidebar);
+  border-right: 1px solid var(--background-sidebar-h);
+  overflow: auto;
+  height: 100%;
+  width: 300px;
+  position: relative;
+}
+
+#box-sidebar-right {
+  background-color: var(--background-sidebar);
+  border: 1px solid var(--background-sidebar-h);
+  display: none;
+  overflow: auto;
+  height: auto;
+  max-height: 100%;
+  min-width: 200px;
+  position: absolute;
+  right: 0;
+}
+#box-sidebar-right.open-sidebar {
+  display: block;
+}
+
+#box-sidebar-right .usuario-logado {
+  padding: 10px 15px;
+  color: var(--color-sidebar);
+}
+
+#box-sidebar-right .usuario-logado small {
+  display: block;
+}
+
+#box-sidebar-right .sair-sistema {
+  padding: 10px 15px;
+}
+
+#box-container {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+#box-container > div {
+  color: var(--color-page);
+  min-height: calc(100% - 39px);
+  padding: 10px 15px;
+
+  /* background-color: var(--background-sidebar);
+  border: 1px solid var(--background-sidebar-h);
+  border-radius: 4px;
+  margin: 0 15px 15px; */
+}
+#box-container .titulo {
+  color: var(--color-page);
+  font-size: 1.7rem;
+  margin: 0 0 20px 0;
+}
+
+/* #box-header {
+  grid-area: header;
+}
+#box-sidebar-left {
+  grid-area: sidebarLeft;
+  overflow: auto;
+  height: 100%;
+}
+#box-container {
+  grid-area: container;
+  overflow: auto;
+  height: 100%;
+}
+
+#root {
+  display: grid;
+  grid-template-areas: 'header header header' 'sidebarLeft container container';
+} */
+
+@media (min-width: 780px) {
+  #box-header .btn-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  #box-sidebar-left {
+    position: absolute;
+    z-index: 2;
+  }
+  #box-sidebar-left {
+    display: none;
+  }
+  #box-sidebar-left.open-sidebar {
+    display: block;
+  }
+}
+
+#box-container .box-pesquisa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#box-container .box-pesquisa > div:first-child {
+  min-width: 50%;
+}
+#box-container .box-pesquisa .adicionar {
+  margin-bottom: 15px;
+}
+
+
+[class*=page-header]{
+  display: flex;
+  justify-content: space-between;
+}
+[class*=page-header]>div{
+  display: table;
+  min-width: 70%;
+}
+[class*=page-header]>div>div{
+  display: table-cell;
+  padding-left: 15px;
+}
+[class*=page-header]>div>div:last-child{
+  width: 210px;
+}
+[class*=page-header-acao]>div>div:nth-last-child(2){
+  width: 210px;
+}
+[class*=page-header-acao]>div>div.pesquisa-acao{
+  width: 1%;
+  position: relative;
+  top: 6px;
+}

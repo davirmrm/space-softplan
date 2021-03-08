@@ -1,0 +1,12 @@
+{
+  "titulo": "Space Softplan",
+  "menu": [
+    { "id": 1, "label": "Lançamentos", "go": "/lancamentos" },
+    { "id": 2, "label": "Foguetes", "go": "/foguetes" },
+    { "id": 3, "label": "Pessoas", "go": "/pessoas" }
+  ],
+  "usuario": [
+    { "id": 1, "label": "Perfis", "go": "/perfis" },
+    { "id": 2, "label": "Colaboradores", "go": "/colaboradores" }
+  ]
+}

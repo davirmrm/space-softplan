@@ -1,0 +1,14 @@
+.box-pessoas .pessoas-lista{
+    border: 1px solid var(--input-bgh);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+.box-pessoas .pessoas-lista>.info{
+    display: flex;
+    justify-content: space-between;
+}
+.box-pessoas .pessoas-lista>.info{
+    display: flex;
+    justify-content: space-between;
+}

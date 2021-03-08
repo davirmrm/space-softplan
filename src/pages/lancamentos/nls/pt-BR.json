@@ -1,0 +1,25 @@
+{
+  "title": "Lançamentos",
+  "modalAdd": "Novo lançamento",
+
+  "nome": "Nome",
+  "data": "Data",
+  "foguete": "Foguete",
+  "local": "Local",
+  "descricao": "Descrição",
+  "listaNaves": "Lista de naves",
+
+  "verMais": "Ver mais +",
+  "verMenos": "Ver menos -",
+  "salvar": "Salvar",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "emailExiste": "E-mail já existe em nossa base de dados.",
+    "minCaracterSenha": "Senha deve conter no mínimo 6 caracteres.",
+    "senhaConfirmarDiferente": "Senha e confirmar senha são diferentes.",
+    "usuarioNaoExiste": "Usuário não cadastrado no sistema.",
+    "senhaIncorreta": "Senha incorreta."
+  }
+}

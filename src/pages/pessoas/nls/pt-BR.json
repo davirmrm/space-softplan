@@ -1,0 +1,21 @@
+{
+  "title": "Pessoas",
+  "modalAdd": "Adicionar pessoa",
+  "modalRemover": "Remover",
+  
+  "nome": "Nome",
+  "nLancamentos": "N° de lançamentos",
+  "foguete": "Foguete",
+  "twitter": "Twitter",
+  
+  "salvar": "Salvar",
+  "remover": "Remover",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "salvoSucesso": "Pessoa salva com sucesso.",
+    "removerSucesso": "Pessoa removida com sucesso.",
+    "confirmar": "Tem certeza que deseja remover esta pessoa?"
+  }
+}

@@ -1,0 +1,10 @@
+.componentes h5 {
+  margin: 10px 0 5px 0;
+}
+.componentes .grupo-botao {
+  display: flex;
+  justify-content: center;
+}
+.componentes .grupo-botao button {
+  margin: 5px;
+}

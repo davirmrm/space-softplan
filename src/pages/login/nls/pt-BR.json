@@ -1,0 +1,10 @@
+{
+  "title": "Serviços",
+
+  "mensagem": {
+    "obrigatorio": "Obrigatório",
+    "camposObrigatorios": "Preencha os campos obrigatórios.",
+    "usuarioNaoExiste": "Usuário não cadastrado no sistema.",
+    "senhaIncorreta": "Senha incorreta."
+  }
+}

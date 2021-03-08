@@ -1,0 +1,29 @@
+.box-lancamento .lancamento-header{
+    display: flex;
+    justify-content: space-between;
+}
+.box-lancamento .lancamento-header>div{
+    display: table;
+    min-width: 70%;
+}
+.box-lancamento .lancamento-header>div>div{
+    display: table-cell;
+    padding-left: 15px;
+}
+.box-lancamento .lancamento-header>div>div:last-child{
+    width: 210px;
+}
+.box-lancamento .lancamento-lista{
+    border: 1px solid var(--input-bgh);
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+.box-lancamento .lancamento-lista>.info{
+    display: flex;
+    justify-content: space-between;
+}
+.box-lancamento .lancamento-lista>.info{
+    display: flex;
+    justify-content: space-between;
+}
